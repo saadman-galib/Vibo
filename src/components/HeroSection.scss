@@ -1,0 +1,92 @@
+.herosection-container {
+    width: 100%;
+    min-height: 1315px;
+    background: url("../asset/images/hero-bg.png") center/cover no-repeat;
+
+    .herosection {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: "Work Sans", sans-serif;
+        margin-top: 150px;
+        // position: relative;
+
+        .hero-title {
+            h2 {
+                color: #fff;
+                font-size: 60px;
+                margin-bottom: 35px;
+            }
+
+            p {
+                color: #fff;
+                font-size: 21px;
+                margin-bottom: 35px;
+            }
+        }
+
+        .hero-btn-container {
+            .hero-btn {
+                border: none;
+                border-radius: 8px;
+                padding: 17px 40px;
+                margin: 15px;
+                letter-spacing: 0.8px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .btn-white {
+                background-color: #fff;
+                color: rgb(35, 49, 72);
+                // border: ;
+            }
+
+            .btn-transparent {
+                background-color: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 17px 56.7px; // border-color: #fff;
+            }
+        }
+
+        .hero-img {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+
+            img {
+                width: 350px;
+                height: auto;
+                transform: translateY(140px);
+            }
+        }
+    }
+}
+
+.wave-container{
+    width: 100%;
+    min-height: 1661.333px;
+    // position: relative;
+    position: absolute;
+}
+
+.wave {
+    width: 100%;
+    height: 100%;
+    top: -210px;
+    // background: url("../asset/images/wave.png") center/cover no-repeat;
+    // transform: translateY(-130px);
+    position: absolute;
+    img {
+        width: 100%;
+        height: 100%;
+        // background-color: transparent;
+
+        // transform: translateY(-150px);
+    }
+}
