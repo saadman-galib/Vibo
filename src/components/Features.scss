@@ -1,10 +1,99 @@
-.features-container{
+.features-container {
     width: 100%;
     height: 100%;
-    background-color: lightblue;
+    // background-color: lightblue;
+    // background-color: #fafafc;
     z-index: 999;
-    position: absolute;
-    margin-top: 125px;
+    position: relative;
+    // position: absolute;
+    // margin-top: 125px;
+    padding: 150px 0;
+    font-family: "Work Sans", sans-serif;
     // background: url("../asset/images/wave.png") center/cover no-repeat;
     // transform: translateY(-150PX);
+    .features {
+        width: 100%;
+        // height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: #fafafc;
+        padding-bottom: 150px;
+        .feature-img {
+            margin-right: 100px;
+
+            img {
+                width: 350px;
+                height: auto;
+            }
+        }
+
+        .cards-container {
+            // margin-left: 80px;
+            .card {
+                width: 340px;
+                height: 420px;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0 40px;
+                text-align: center;
+                padding: 18px 25px;
+                border-radius: 8px;
+                box-shadow: -3px 3px 18px 0.2px rgba(35, 39, 47, 0.2);
+
+                img {
+                    width: 52px;
+                    height: auto;
+                    margin-bottom: 35px;
+                }
+                h3 {
+                    margin-bottom: 22px;
+                    color: #323f54;
+                    letter-spacing: 0.8px;
+                    font-weight: 700;
+                    
+                }
+
+                p{
+                    color: #8e8e8e;
+                    font-weight: 500;
+                    font-size: 16px;
+                    letter-spacing: 0.8px;
+                    line-height: 25px;
+                }
+            }
+        }
+
+        .card-row {
+            display: flex;
+            flex-direction: row;
+
+            .card:last-child {
+                margin-top: 90px;
+                margin-left: 45px;
+            }
+        }
+
+        .card-row-first{
+            transform: translateX(50px);
+
+            .card:last-child{
+                transform: translateY(25px);
+            }
+        }
+
+        .card-row-second{
+            // transform: translateX(-10px);
+            margin-top: 25px;
+
+            .card:first-child{
+                transform: translateY(-15px);
+            }
+        }
+    }
 }

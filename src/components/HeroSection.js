@@ -35,8 +35,9 @@ function HeroSection() {
                 <div className="wave">
                     <img src="./images/wave.png" alt="" />
                 </div>
-                <Features />
             </div>
+            <Features />
+            <div className="divider"></div>
         </>
     );
 }
